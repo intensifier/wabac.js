@@ -1,6 +1,7 @@
 {
   "name": "@webrecorder/wabac",
-  "version": "2.12.0",
+  "type": "module",
+  "version": "2.12.1",
   "main": "index.js",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
@@ -20,7 +21,7 @@
     "path-parser": "^6.1.0",
     "process": "^0.11.10",
     "stream-browserify": "^3.0.0",
-    "warcio": "^1.5.1"
+    "warcio": "github:webrecorder/warcio.js#esm-test"
   },
   "devDependencies": {
     "@titelmedia/node-fetch": "^3.0.1",
