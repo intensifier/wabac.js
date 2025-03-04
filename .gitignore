@@ -1,5 +1,11 @@
 *.har
 *.warc
 *.warc.gz
-!examples/*.warc
+!examples/**.warc
+**/*.wacz
+**/adblock.gz
 **/node_modules
+**/dist
+.tsimp
+coverage
+dist-wombat
